@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShadiTestApp</string>
+    <string name="accept_btn_label">Accept</string>
+    <string name="decline_btn_label">Decline</string>
+    <string name="decline_label">Member Declined</string>
+    <string name="accept_label">Member Accepted"</string>
+    <string name="email">Email</string>
+    <string name="Age">Age</string>
+    <string name="refresh_title">refresh</string>
+    <string name="technical_dialog_title">Oops</string>
+    <string name="technical_dialog_message">Unfortunately, something went wrong. Please try again later.</string>
+    <string name="no_internet">No Internet</string>
+
+</resources>

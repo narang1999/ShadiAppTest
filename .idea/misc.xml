@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/A94860736/Documents/ShadiTestApp/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/A94860736/Documents/ShadiTestApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/A94860736/Documents/ShadiTestApp/app/src/main/res/layout/activity_main.xml" value="0.11018237082066869" />
+        <entry key="..\:/Users/A94860736/Documents/ShadiTestApp/app/src/main/res/layout/shadi_user_item.xml" value="0.2265625" />
+        <entry key="..\:/Users/A94860736/Documents/ShadiTestApp/app/src/main/res/layout/shadi_user_matches.xml" value="0.10869565217391304" />
+        <entry key="..\:/Users/A94860736/Documents/ShadiTestApp/app/src/main/res/menu/shadimatch.xml" value="0.20364583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
