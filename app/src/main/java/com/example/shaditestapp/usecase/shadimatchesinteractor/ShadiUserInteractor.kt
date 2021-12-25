@@ -36,7 +36,7 @@ class ShadiUserInteractor(val shadiUserDao: ShadiUserDatabase) {
         return shadiUserDao.wordDao().insert(userData)
     }
 
-    fun insertStatus(id: Int, status: String) =
+    fun insertStatus(id: Int, status: String): Completable =
         shadiUserDao.wordDao().insertStatus(id, status).subscribeOn(Schedulers.io())
 
 }

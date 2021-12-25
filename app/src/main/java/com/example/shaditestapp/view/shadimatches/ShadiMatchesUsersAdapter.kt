@@ -30,7 +30,6 @@ class ShadiMatchesUsersAdapter(val result: ((Pair<String, Int>) -> Unit)) :
         return PostViewHolder(ShadiUserItemBinding.bind(parent.inflateChild(R.layout.shadi_user_item)))
     }
 
-
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         if (holder is PostViewHolder) {
             holder.bind(getItem(position))

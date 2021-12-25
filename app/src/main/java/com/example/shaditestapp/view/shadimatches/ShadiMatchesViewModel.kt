@@ -18,6 +18,7 @@ class ShadiMatchesViewModel(
     val error: LiveData<Throwable> get() = _error
     private var _error: MutableLiveData<Throwable> = MutableLiveData<Throwable>()
     val onApiError: LiveData<Unit> get() = _onApiError
+
     private var _onApiError: MutableLiveData<Unit> = MutableLiveData<Unit>()
     val allMatchesUsers: LiveData<List<ShadiUserMatchesInfo>> get() = _allMatchesUsers
 
@@ -31,7 +32,6 @@ class ShadiMatchesViewModel(
         }
         getMatchedUsers()
     }
-
 
     fun onStatusBtnClicked(id: Int, status: String) {
         launch {
@@ -47,7 +47,6 @@ class ShadiMatchesViewModel(
                 .subscribe({ insertMatches(it) }, this::onError)
         }
     }
-
 
     @SuppressLint("CheckResult")
     private fun insertMatches(result: List<Results>) {

@@ -46,7 +46,6 @@ class ShadiMatches : AppCompatActivity() {
         viewModel.onApiError.observe(this) {
             Toast.makeText(this, R.string.no_internet, Toast.LENGTH_LONG).show()
         }
-
         viewModel.error.observe(this) {
             DialogUtil.showTechnicalDialog(this)
         }
